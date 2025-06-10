@@ -35,7 +35,7 @@ function isEmail(email) {
 let addnum = add (5, 10);
 let subnum = subtract(4, 3);
 let num = evenOrOdd(7);
-let emailCheck = isEmail("debjganguly2gmail.com");
+let emailCheck = isEmail("debjganguly@gmail.com");
 
 console.log(addnum);
 console.log(subnum);
