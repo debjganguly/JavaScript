@@ -1,10 +1,10 @@
-function hello(wait) {
-    console.log("Hello!");
-    wait();
+function sum(call, a, b) {
+  let result = a + b;
+  call(result);
 }
 
-function wait() {
-    console.log("Waiting...");
+function printResult(result) {
+  console.log("The result is: " + result);
 }
 
-hello(wait);
+sum(printResult, 5, 3);
