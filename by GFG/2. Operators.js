@@ -9,7 +9,7 @@ console.log("5 * 5 = " + (5*5)); // Multiplication
 console.log("5 / 5 = " + (5/5)); // Division
 console.log("5 % 5 = " + (5%5)); // Modulus - Returns remainder
 
-console.log("------------------------------");
+console.log("\n------------------------------");
 
 // 2. Assignment Operators:
 console.log("2. Assignment Operator:")
@@ -20,7 +20,7 @@ console.log("n*=5 gives " + (n*=5));
 console.log("n/=5 gives " + (n/=5));
 console.log("n%=5 gives " + (n%=5));
 
-console.log("------------------------------");
+console.log("\n------------------------------");
 
 // 3. Comparision Operators:
 console.log("3. Comparision Operator: ");
@@ -28,7 +28,7 @@ let a = 7, b = 9;
 console.log(a>b);
 console.log(a==b);
 
-console.log("------------------------------");
+console.log("\n------------------------------");
 
 // 4. Logical Operators:
 console.log("4. Logical Operators: ");
@@ -37,7 +37,7 @@ let d = false;
 console.log( c && d ); // Logical and
 console.log( c || d); // Logical or
 
-console.log("------------------------------");
+console.log("\n------------------------------");
 
 
 // 5. Bitwise Operators:
@@ -48,14 +48,14 @@ console.log(e|f); // bitwise or
 console.log(e^f); // bitwise XOR
 // console.log(e~f); // bitwise not
 
-console.log("------------------------------");
+console.log("\n------------------------------");
 
 // 6. Ternary Operator:
 console.log("6. Ternary Operators: ");
 
 let g = 8, h = 9;
 let status = (g>h) ? console.log("yup") : console.log("nope");
-console.log("------------------------------");
+console.log("\n------------------------------");
 
 // 7. Comma Operator: 
 console.log("7. Comma Operators: ");
@@ -63,7 +63,7 @@ console.log("7. Comma Operators: ");
 let i,j;
 let status2 = (i=1,j=2,i+j);
 console.log(status2);
-console.log("------------------------------");
+console.log("\n------------------------------");
 
 // 8. Unary Operator:
 
@@ -75,7 +75,7 @@ console.log(k++);
 console.log(++k);
 console.log(--k);
 
-console.log("------------------------------");
+console.log("\n------------------------------");
 
 // 9. Relational Operator:
 
@@ -85,7 +85,7 @@ const obj = { length: 10 };
 console.log("length" in obj);
 console.log([] instanceof Array);
 
-console.log("------------------------------");
+console.log("\n------------------------------");
 
 // 10. BigInt Operator:
 
@@ -96,7 +96,7 @@ const big1 = 12345678910n;
 const big2 = 987654321n;
 console.log(big1 + big2);
 
-console.log("------------------------------");
+console.log("\n------------------------------");
 
 // 11. String Operators:
 
@@ -105,7 +105,7 @@ console.log("11. String Operators: ");
 const s = "hello" + " " + "world";
 console.log(s);
 
-console.log("------------------------------");
+console.log("\n------------------------------");
 
 // 12. Chaining Operator:
 
@@ -115,4 +115,4 @@ const obj2 = { name: "Aman", address: { city: "Delhi" } };
 console.log(obj2.address?.city);
 console.log(obj2.contact?.phone);
 
-console.log("------------------------------");
+console.log("\n------------------------------");
